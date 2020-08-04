@@ -1,10 +1,10 @@
 <?php
 
- // create_social_twitter_accounts.php
+ // create_social_google_accounts.php
  use Illuminate\Support\Facades\Schema;
  use Illuminate\Database\Schema\Blueprint;
  use Illuminate\Database\Migrations\Migration;
- class CreateSocialTwitterAccountsTable extends Migration
+ class CreateSocialGoogleAccountsTable extends Migration
  {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@
      */
     public function up()
     {
-        Schema::create('social_twitter_accounts', function (Blueprint $table) {
+        Schema::create('social_google_accounts', function (Blueprint $table) {
           $table->integer('user_id');
           $table->string('provider_user_id');
           $table->string('provider');
@@ -27,6 +27,6 @@
      */
     public function down()
     {
-        Schema::dropIfExists('social_twitter_accounts');
+        Schema::dropIfExists('social_google_accounts');
     }
  }

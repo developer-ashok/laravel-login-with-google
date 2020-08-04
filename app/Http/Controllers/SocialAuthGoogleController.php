@@ -8,7 +8,7 @@ use App\Services\SocialGoogleAccountService;
 class SocialAuthGoogleController extends Controller
 {
   /**
-   * Create a redirect method to twitter api.
+   * Create a redirect method to google api.
    *
    * @return void
    */
@@ -18,9 +18,9 @@ class SocialAuthGoogleController extends Controller
     }
     
     /**
-     * Return a callback method from twitter api.
+     * Return a callback method from google api.
      *
-     * @return callback URL from twitter
+     * @return callback URL from google
      */
     public function callback(SocialGoogleAccountService $service, Request $request)
     {
