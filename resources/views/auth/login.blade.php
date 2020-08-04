@@ -73,7 +73,7 @@
                             <div class="form-group">
                                 <div class="col-md-12 col-md-offset-4">
                                     <a href="{{ url('/redirect') }}" >
-                                        <img src="https://www.ainotes.org/images/google-button.svg" alt="Login with twitter" height="40" />
+                                        <img src="https://www.ainotes.org/images/google-button.svg" alt="Login with google" height="40" />
                                     </a>
                                 </div>
                             </div>
